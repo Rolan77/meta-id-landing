@@ -1,8 +1,10 @@
 {
   "hosting": {
-    "public": "examples", "assets"
+    "public": ".",
     "ignore": [
       "firebase.json",
+      "gulpfile.json",
+      "**/docs/**",
       "**/.*",
       "**/node_modules/**"
     ]
